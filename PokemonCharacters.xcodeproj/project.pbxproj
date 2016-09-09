@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72401C981D8313600057C111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72401C971D8313600057C111 /* Assets.xcassets */; };
+		72401C9F1D8313600057C111 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72401C9E1D8313600057C111 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72401CA41D8313600057C111 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72401CA31D8313600057C111 /* Messages.framework */; };
+		72401CA71D8313600057C111 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72401CA61D8313600057C111 /* MessagesViewController.swift */; };
+		72401CAA1D8313600057C111 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72401CA81D8313600057C111 /* MainInterface.storyboard */; };
+		72401CAC1D8313600057C111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72401CAB1D8313600057C111 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72401CA01D8313600057C111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72401C8E1D8313600057C111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72401C9D1D8313600057C111;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72401CB31D8313600057C111 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72401C9F1D8313600057C111 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72401C941D8313600057C111 /* PokemonCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72401C971D8313600057C111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72401C991D8313600057C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72401C9E1D8313600057C111 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		72401CA31D8313600057C111 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		72401CA61D8313600057C111 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		72401CA91D8313600057C111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		72401CAB1D8313600057C111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72401CAD1D8313600057C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72401C9B1D8313600057C111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72401CA41D8313600057C111 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72401C8D1D8313600057C111 = {
+			isa = PBXGroup;
+			children = (
+				72401C961D8313600057C111 /* PokemonCharacters */,
+				72401CA51D8313600057C111 /* MessagesExtension */,
+				72401CA21D8313600057C111 /* Frameworks */,
+				72401C951D8313600057C111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72401C951D8313600057C111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72401C941D8313600057C111 /* PokemonCharacters.app */,
+				72401C9E1D8313600057C111 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72401C961D8313600057C111 /* PokemonCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				72401C971D8313600057C111 /* Assets.xcassets */,
+				72401C991D8313600057C111 /* Info.plist */,
+			);
+			path = PokemonCharacters;
+			sourceTree = "<group>";
+		};
+		72401CA21D8313600057C111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72401CA31D8313600057C111 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72401CA51D8313600057C111 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				72401CA61D8313600057C111 /* MessagesViewController.swift */,
+				72401CA81D8313600057C111 /* MainInterface.storyboard */,
+				72401CAB1D8313600057C111 /* Assets.xcassets */,
+				72401CAD1D8313600057C111 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72401C931D8313600057C111 /* PokemonCharacters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72401CB41D8313600057C111 /* Build configuration list for PBXNativeTarget "PokemonCharacters" */;
+			buildPhases = (
+				72401C921D8313600057C111 /* Resources */,
+				72401CB31D8313600057C111 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72401CA11D8313600057C111 /* PBXTargetDependency */,
+			);
+			name = PokemonCharacters;
+			productName = PokemonCharacters;
+			productReference = 72401C941D8313600057C111 /* PokemonCharacters.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		72401C9D1D8313600057C111 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72401CB01D8313600057C111 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				72401C9A1D8313600057C111 /* Sources */,
+				72401C9B1D8313600057C111 /* Frameworks */,
+				72401C9C1D8313600057C111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 72401C9E1D8313600057C111 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72401C8E1D8313600057C111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "AppTastic Voyage";
+				TargetAttributes = {
+					72401C931D8313600057C111 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KT3EESWU53;
+						ProvisioningStyle = Automatic;
+					};
+					72401C9D1D8313600057C111 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KT3EESWU53;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72401C911D8313600057C111 /* Build configuration list for PBXProject "PokemonCharacters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72401C8D1D8313600057C111;
+			productRefGroup = 72401C951D8313600057C111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72401C931D8313600057C111 /* PokemonCharacters */,
+				72401C9D1D8313600057C111 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72401C921D8313600057C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72401C981D8313600057C111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72401C9C1D8313600057C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72401CAC1D8313600057C111 /* Assets.xcassets in Resources */,
+				72401CAA1D8313600057C111 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72401C9A1D8313600057C111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72401CA71D8313600057C111 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72401CA11D8313600057C111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72401C9D1D8313600057C111 /* MessagesExtension */;
+			targetProxy = 72401CA01D8313600057C111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72401CA81D8313600057C111 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72401CA91D8313600057C111 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72401CAE1D8313600057C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72401CAF1D8313600057C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72401CB11D8313600057C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = KT3EESWU53;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AV.PokemonCharacters.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72401CB21D8313600057C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = KT3EESWU53;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AV.PokemonCharacters.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		72401CB51D8313600057C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KT3EESWU53;
+				INFOPLIST_FILE = PokemonCharacters/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AV.PokemonCharacters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72401CB61D8313600057C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KT3EESWU53;
+				INFOPLIST_FILE = PokemonCharacters/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AV.PokemonCharacters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72401C911D8313600057C111 /* Build configuration list for PBXProject "PokemonCharacters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72401CAE1D8313600057C111 /* Debug */,
+				72401CAF1D8313600057C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72401CB01D8313600057C111 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72401CB11D8313600057C111 /* Debug */,
+				72401CB21D8313600057C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72401CB41D8313600057C111 /* Build configuration list for PBXNativeTarget "PokemonCharacters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72401CB51D8313600057C111 /* Debug */,
+				72401CB61D8313600057C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72401C8E1D8313600057C111 /* Project object */;
+}
