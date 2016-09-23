@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "ab234906d3d0872626215fc06e0dbe60"
+build_time: [527877011, 455841000]
+inputs:
+  "/Users/dameongreen/Downloads/SwiftPlaygourndFiles/PokemonCharacters/MessagesExtension/MessagesViewController.swift": [527873109, 0]
+  "/Users/dameongreen/Downloads/SwiftPlaygourndFiles/PokemonCharacters/MessagesExtension/PokemonStickerBrowserViewController.swift": [527636546, 0]
